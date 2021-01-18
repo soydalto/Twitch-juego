@@ -1,0 +1,54 @@
+div,body,p {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	display: flex;
+	height: 100vh;
+	width: 100vw;
+	background: #a22
+}
+
+.game-container {
+	margin: auto;
+	box-shadow: 0px 0px 15px #000;
+	border: 2px solid #000;
+}
+
+.game-info {
+	background: #000;
+	width: 600px;
+	font-family: century gothic;
+	text-align: right;
+	padding: 8px;
+	color: #fff;
+}
+
+.game-info span{
+	padding: 10px;
+}
+
+.game {
+	width: 600px;
+	height: 600px;
+	background: #222;
+}
+
+.bot {
+	background: #fff;
+	width: 100px;
+	height: 100px;
+	border-radius: 50%;
+	border: 2px solid #000;
+	box-shadow: 0px 0px 20px #a22;
+	display: flex;
+	position: relative;
+	transition: top 0.36s, left 0.36s
+}
+
+.bot span {
+	margin: auto;
+	font-size: 60px;
+}
